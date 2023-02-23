@@ -22,8 +22,8 @@ public class Main {
         System.out.println("Задача 2");
         {
             String fullName = " Ivanov Ivan Ivanovich";
-            fullName = fullName.replace("Ivanov Ivan Ivanovich", "IVANOV IVAN IVANOVICH");
-            System.out.println(" Данные ФИО сотрудника для заполнения отчета —" + fullName);
+            String fullName2 = fullName.toUpperCase();
+            System.out.println(" Данные ФИО сотрудника для заполнения отчета —" + fullName2);
         }
     }
 
